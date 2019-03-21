@@ -8,6 +8,7 @@ function wah(){
   timer()
   },500)
   }
+  timer();
   }
 }
 
@@ -27,7 +28,7 @@ $(document).ready(function(){
         if(startCount==0){
           $(".love").hide();
           $(".gif").show();
-          timer();
+
           wah()
         }
         beginLoop();
