@@ -5,7 +5,6 @@ function wah(){
   function timer(){
   setTimeout(function(){
   console.log(i++)
-  timer()
   },500)
   }
   timer();
@@ -25,10 +24,11 @@ $(document).ready(function(){
       }
 
       if(startCount<5){
-        if(startCount==0){
+        if(startCount==1){
           $(".love").hide();
           $(".gif").show();
-
+        }
+        if(startCount==0){
           wah()
         }
         beginLoop();
