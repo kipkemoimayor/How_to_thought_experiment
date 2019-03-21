@@ -1,0 +1,48 @@
+.navbar ul li{
+  text-decoration: none;
+  display: inline-block;
+}
+.navbar a{
+  background-color: #8612;
+  color: black;
+  padding: ;
+}
+.navbar a:hover{
+  background: #8743;
+
+}
+.container-fluid{
+  border-color: red;
+}
+#card{
+  height: 150vh;
+  background-image: url(../img/boom.jpg);
+  background-position: center;
+  background-size: cover;
+
+  background-repeat: no-repeat;
+}
+.overlay{
+  background-color: rgba(0,0,0,0.4);
+  height: 150vh;
+}
+.col-md-8{
+  background-image: url(../img/red.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#op{
+ background-color: rgba(0,0,0,0.3);
+ color: white;
+}
+hr{
+
+}
+.gif{
+  display: none;
+  margin: auto;
+}
+img{
+  height: 100%;
+  width: 100%;
+}
