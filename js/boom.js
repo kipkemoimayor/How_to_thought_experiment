@@ -5,6 +5,7 @@ function wah(){
   function timer(){
   setTimeout(function(){
   console.log(i++)
+  openPages();
   },500)
   }
   timer();
@@ -40,7 +41,7 @@ $(document).ready(function(){
         }
         if(startCount==0){
           wah()
-           openPages();
+
         }
         beginLoop();
       }
